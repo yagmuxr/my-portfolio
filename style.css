@@ -160,29 +160,34 @@ button:hover {
   width: calc(130%- 80px);
   top: -100px;
   right: 50px;
-  animation: animateUser 4s linear infinite;
 }
 
-@keyframes animateUser {
-  50% {
-    right: 30px;
-    top: -90px;
-  }
+.skills-list {
+  list-style: none;
+  padding: 0;
 }
 
-.imgbox #splash {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-35deg);
-  width: 160%;
-  filter: saturate(200%);
-  animation: animate 4s linear infinite;
+.skills-list li {
+  margin-bottom: 10px;
 }
 
-@keyframes animate {
-  50% {
-    right: 30px;
-    top: -90px;
-  }
+.skill-bar {
+  background-color: #f0f0f0;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skills {
+  padding: 80;
 }

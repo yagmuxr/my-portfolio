@@ -1,70 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <nav>
-        <div class="logo">yagmur<b>: )</b></div>
-        <ul class="navItems">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <div class="links">
-          <a href=""><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/yagmuxr/my-portfolio"
-            ><i class="fab fa-github"></i
-          ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YagmurYalcin</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-          <a href=""><i class="fab fa-instagram"></i></a>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">yagmur<b>: )</b></div>
+      <ul class="navItems">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/ya%C4%9Fmur-yal%C3%A7%C4%B1n-00000y000/"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yagmuxr/my-portfolio"><i class="fab fa-github"></i></a>
+
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="cols cols0">
+        <span class="topline">Hello</span>
+        <!-- <img src="object1.png" id="cols0" /> -->
+        <h1>I'm <span class="multiText">Coder</span></h1>
+        <p>
+          Hello, my name is Yağmur Yalçın. I am currently a Computer Engineering student at Süleyman Demirel University.
+          I have a strong interest in programming and technology. Currently, I am focused on Full-Stack Web Development,
+          but I'm also passionate about Cybersecurity and Mobile Development.
+        </p>
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul class="skills-list">
+            <li>
+              <span class="skill-name">C#</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">Java</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 70%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 50%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">React Native</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 45%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-name">PHP</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 35%; background-color: #7f00ff;"></div>
+              </div>
+            </li>
+          </ul>
         </div>
-      </nav>
-
-      <div class="wrapper">
-        <div class="cols cols0">
-          <span class="topline">Hello</span>#
-          <!-- <img src="object1.png" id="cols0" /> -->
-          <h1>I'm <span class="multiText">Coder</span></h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-            magnam?
-          </p>
-          <div class="buttons">
-            <button>Download CV</button>
-            <button>Hire Me</button>
-          </div>
+        <div class="buttons">
+          <button>Download CV</button>
+          <button>Contact Me</button>
         </div>
-        <div class="cols cols1">
-          <div class="imgbox">
-            <img src="img.png.png" />
-          </div>
+      </div>
+      <div class="cols cols1">
+        <div class="imgbox">
+          <img src="img.png.png" />
+          <!-- png çalışmadı tekrar bak! -->
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- animasyonlar için kullanılır  -->
-    <script>
-      var typingEffect = new Typed(".multiText", {
-        strings: ["Coder", "Engineer", "Designer"],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1500,
-      });
-    </script>
-  </body>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- animasyonlar için kullanılır  -->
+  <script>
+    var typingEffect = new Typed(".multiText", {
+      strings: ["Engineer", "Coder", "Designer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500,
+    });
+  </script>
+</body>
+
 </html>
